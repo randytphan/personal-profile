@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/mac2.jpeg') no-repeat center;
+  background-size: cover;
+  color: white;
+  padding-bottom: 130px;
+  padding-top: 130px;
+  font-size: 18px;
+  font-family: Optima;
+  box-shadow: 0px 5px 6px #222;
+}
+
+body {
+  background: #a6a6a6;
+  font-family: Optima;
+}
+
+/* 
+.wrapper {
+  min-height: calc(100vh - 244.2px);
+} */
+
+footer {
+  text-align: center;
+  background: #a6a6a6;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  color: black;
+  font-family: Optima;
+  margin-bottom: 10px;
+}
+
+footer p {
+    margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  /* display: block; */
+}
+
+a:visited {
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+.resize {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* .nav-bar {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+  background: #999999;
+  box-shadow: 0px 2px 2px #222;
+  font-family: courier;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  font-weight: 300;
+} */
+
+.main-content {
+  float: left;
+
+}
+
+.section {
+  margin: 40px 30px;
+  padding: 20px 20px 25px;
+  text-align: center;
+  background: #999999;
+  border-radius: 6px;
+  width: 45%;
+}
+
+.section p {
+  line-height: 180%;
+}
+
+.part1 {
+  float: left;
+}
+
+.part2 {
+  float: right;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a.email {
+  background-image: url(images/envelope.svg);
+}
+a.github {
+  background-image: url(images/github-sign.svg);
+}
+a.instagram {
+  background-image: url(images/instagram-logo.svg);
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+a.social:hover {
+  opacity: 1;
+}
+
+
+/* Media Queries for 750px */
+
+@media (min-width: 1024px) {
+  .section {
+  }
+}
